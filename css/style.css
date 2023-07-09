@@ -243,3 +243,11 @@ footer div ul li a{
 .contenedor-eliminar{
     cursor: pointer;
 }
+
+#sin-productos{
+    min-height: 375px;
+}
+
+#carrito{
+    min-height: 375px;
+}

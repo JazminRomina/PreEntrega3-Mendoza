@@ -63,7 +63,6 @@ function eliminarProducto(){
     }
 }
 function chauProducto(e){
-    console.log(e.currentTarget.id)
     let encontrado = traerProductos.findIndex(producto => producto.id == e.currentTarget.id)
     traerProductos.splice(encontrado, 1)
     CarritoDeCompras()
