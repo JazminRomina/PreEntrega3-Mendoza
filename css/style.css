@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+
+/* Etiquetas */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+nav img{
+    width: 280px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+nav div ul li{
+    list-style: none;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+nav div ul li button{
+    font-size: 1.3rem;
+    color: white;
+    background-color: #6a040f;
+    cursor: pointer;
+    border: 0;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+nav div ul li button:hover{
+    background-color: white;
+    color: black;
+    transition: background-color .3s, color .3s;
+}
+
+header img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer div img{
+    width: 260px;
+    height: 170px;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* clases */
+.redes-sociales{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.container-nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container_botones-nav{
+    display: flex;
+    padding-bottom: 0;
+}
+
+.botones-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+#productos-pokemon{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#botones-categorias{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: wrap;
+    padding: 20px;
+}
+
+.botones-categoria{
+    padding: .6rem;
+    font-size: 1.1em;
+    background-color: #6a040f;
+    color: white;
+    border-radius: .7rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.ocultar{
+    display: none;
+}
+
+.subtitulo-empresa{
+    font-size: 2.2em;
+    padding: 10px;
+}
+
+.texto-empresa{
+    font-size: 1.4em;
+    padding: 30px;
+}
+
+.caja-empresa{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.img-empresa{
+    border-radius: 1rem;
+    width: 650px;
+    height: 400px;
+}
+
+.container-productos{
+    display: flex;
+    background: linear-gradient(rgb(56, 0, 0), #910513);
+    color:white;
+    border-radius: 1rem;
+    flex-direction: column;
+    margin: -10px;
+    padding: .5rem;
+    gap: .3rem;
+}
+
+.separador{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boton-agregar{
+    border-radius: 1rem;
+    border: 0;
+    background-color: #ffffff;
+    color:#6a040f;
+    font-size: 1em;
+    padding: .25rem;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.boton-agregar:hover{
+    background-color: #6a040f;
+    color: rgb(255, 255, 255);
+    transition: background-color .3s, color .3s;
+}
+
+.img-productos{
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.contenedor-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(rgb(187, 8, 8), #69030d);
+    color: white;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.separador-carrito{
+    padding: 10px;
+}
+
+.contenedor-id{
+    display: flex;
+    flex-direction: column;
+}
+
+#comprar-carrito{
+    border-radius: 1rem;
+    border: 0;
+    background-color: #6a040f;
+    color:#ffffff;
+    font-size: 1em;
+    padding: .25rem;
+    border: 2px solid #6a040f;
+    cursor: pointer;
+}
+
+.container-boton-carrito{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#comprar-carrito:hover{
+    background-color: #ffffff;
+    color: #6a040f;
+    transition: background-color .3s, color .3s;
+}
+
+#sin-productos{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.img-eliminar{
+    width: 50px;
+    height: 50px;
+}
+
+.contenedor-eliminar{
+    cursor: pointer;
+}
